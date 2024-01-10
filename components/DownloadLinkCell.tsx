@@ -5,8 +5,7 @@ import { Copy, CopyCheck } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from './ui/button';
 
-interface DownloadLinkCellProps {
-  uploadSuccess: boolean;
+interface DownloadLinkCellProps { 
   renderValue: () => any; 
 }
 

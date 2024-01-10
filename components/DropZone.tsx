@@ -73,7 +73,7 @@ function DropZone() {
     }
   };
 
-  const maxSize = 1073741824; // 1GB in bytes
+  const maxSize = 20971520; // 20MB in bytes
 
   return (
     <Dropzone minSize={0} maxSize={maxSize} onDrop={onDrop}>
