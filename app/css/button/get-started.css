@@ -1,0 +1,20 @@
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(242, 255, 0);
+  box-shadow: 0 0 25px rgb(242, 255, 0);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0, 0, 0),
+    0 0 50px rgb(242, 255, 0);
+}
